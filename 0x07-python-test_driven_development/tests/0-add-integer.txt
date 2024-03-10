@@ -1,0 +1,91 @@
+================
+How to use 0-add_integer.py?
+================
+
+
+Usage
+======
+
+``add_integer(...)`` is a function that adds two integers together and returns the sum.
+
+``add_integer(...)`` is a function that adds two integers together and returns the sum.
+
+::
+  >> __import__('0-add_integer').add_integer
+  >> add_integer(1, 2)
+     3
+
+::
+  >> add_integer(100, -2)
+     98
+
+::
+    >> add_integer(2.0, 3)
+       5
+
+   Because the function only accepts integers, if accepted floats but it will be converted to integers by taking the whole number part.
+
+::
+    >> add_integer(2.0, 3.6)
+       5
+
+    If the arguments are not whole numbers the decimal part will be truncated.
+
+
+Non-Numbers
+===========
+
+::
+    >> add_integer(2.0, "Hello")
+       Traceback (most recent call last):
+       ...
+       TypeError: b must be an integer
+
+    If the arguments are not integers or floats, the function will raise a TypeError.
+
+::
+
+    >> add_integer(2.0, None)
+         Traceback (most recent call last):
+         ...
+         TypeError: b must be an integer
+
+    If the arguments are not integers or floats, the function will raise a TypeError.
+
+::
+
+    >> add_integer(2.0, [1, 2, 3])
+            Traceback (most recent call last):
+            ...
+            TypeError: b must be an integer
+
+    If the arguments are not integers or floats, the function will raise a TypeError.
+
+
+Single Argument
+================
+
+::
+    >> add_integer(2)
+       100
+
+    Because the function has a defaul parameter of 98, if only one argument is passed, the function will add the argument to the default parameter.
+
+::
+    >> add_integer(6.0)
+       104
+
+::
+    >> add_integer(23.4)
+       121
+
+Special Cases
+=============
+
+::
+    >> add_integer(float('inf'), 2)
+       Traceback (most recent call last):
+
+    OverflowError: cannot convert float infinity to integer
+
+
