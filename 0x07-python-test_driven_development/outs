@@ -1,0 +1,319 @@
+**********************************************************************
+File "./tests/101-lazy_matrix_mul.txt", line 17, in 101-lazy_matrix_mul.txt
+Failed example:
+    lazy_matrix_mul = __import__('101-lazy_matrix_mul').lazy_matrix_mul
+Exception raised:
+    Traceback (most recent call last):
+      File "/usr/lib/python3.11/doctest.py", line 1351, in __run
+        exec(compile(example.source, filename, "single",
+      File "<doctest 101-lazy_matrix_mul.txt[0]>", line 1, in <module>
+        lazy_matrix_mul = __import__('101-lazy_matrix_mul').lazy_matrix_mul
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/tsohle/academia/alx/alx-higher_level_programming/0x07-python-test_driven_development/101-lazy_matrix_mul.py", line 3, in <module>
+        import numpy as np
+    ModuleNotFoundError: No module named 'numpy'
+**********************************************************************
+File "./tests/101-lazy_matrix_mul.txt", line 23, in 101-lazy_matrix_mul.txt
+Failed example:
+    print(lazy_matrix_mul(m_a, m_b))
+Exception raised:
+    Traceback (most recent call last):
+      File "/usr/lib/python3.11/doctest.py", line 1351, in __run
+        exec(compile(example.source, filename, "single",
+      File "<doctest 101-lazy_matrix_mul.txt[3]>", line 1, in <module>
+        print(lazy_matrix_mul(m_a, m_b))
+              ^^^^^^^^^^^^^^^
+    NameError: name 'lazy_matrix_mul' is not defined
+**********************************************************************
+File "./tests/101-lazy_matrix_mul.txt", line 34, in 101-lazy_matrix_mul.txt
+Failed example:
+    print(lazy_matrix_mul(m_a, m_b))
+Exception raised:
+    Traceback (most recent call last):
+      File "/usr/lib/python3.11/doctest.py", line 1351, in __run
+        exec(compile(example.source, filename, "single",
+      File "<doctest 101-lazy_matrix_mul.txt[6]>", line 1, in <module>
+        print(lazy_matrix_mul(m_a, m_b))
+              ^^^^^^^^^^^^^^^
+    NameError: name 'lazy_matrix_mul' is not defined
+**********************************************************************
+File "./tests/101-lazy_matrix_mul.txt", line 50, in 101-lazy_matrix_mul.txt
+Failed example:
+    print(lazy_matrix_mul(m_a, m_b))
+Exception raised:
+    Traceback (most recent call last):
+      File "/usr/lib/python3.11/doctest.py", line 1351, in __run
+        exec(compile(example.source, filename, "single",
+      File "<doctest 101-lazy_matrix_mul.txt[9]>", line 1, in <module>
+        print(lazy_matrix_mul(m_a, m_b))
+              ^^^^^^^^^^^^^^^
+    NameError: name 'lazy_matrix_mul' is not defined
+**********************************************************************
+File "./tests/101-lazy_matrix_mul.txt", line 58, in 101-lazy_matrix_mul.txt
+Failed example:
+    print(lazy_matrix_mul(m_a))
+Expected:
+    Traceback (most recent call last):
+    TypeError: lazy_matrix_mul() missing 1 required positional argument: 'm_b'
+Got:
+    Traceback (most recent call last):
+      File "/usr/lib/python3.11/doctest.py", line 1351, in __run
+        exec(compile(example.source, filename, "single",
+      File "<doctest 101-lazy_matrix_mul.txt[10]>", line 1, in <module>
+        print(lazy_matrix_mul(m_a))
+              ^^^^^^^^^^^^^^^
+    NameError: name 'lazy_matrix_mul' is not defined
+**********************************************************************
+File "./tests/101-lazy_matrix_mul.txt", line 64, in 101-lazy_matrix_mul.txt
+Failed example:
+    print(lazy_matrix_mul()) # doctest: +NORMALIZE_WHITESPACE
+Expected:
+    Traceback (most recent call last):
+    TypeError: lazy_matrix_mul() missing 2 required positional arguments: 
+    'm_a' and 'm_b'
+Got:
+    Traceback (most recent call last):
+      File "/usr/lib/python3.11/doctest.py", line 1351, in __run
+        exec(compile(example.source, filename, "single",
+      File "<doctest 101-lazy_matrix_mul.txt[11]>", line 1, in <module>
+        print(lazy_matrix_mul()) # doctest: +NORMALIZE_WHITESPACE
+              ^^^^^^^^^^^^^^^
+    NameError: name 'lazy_matrix_mul' is not defined
+**********************************************************************
+File "./tests/101-lazy_matrix_mul.txt", line 86, in 101-lazy_matrix_mul.txt
+Failed example:
+    print(lazy_matrix_mul(m_a, m_b))
+Expected:
+    Traceback (most recent call last):
+    ValueError: shapes (2,2) and (3,2) not aligned: 2 (dim 1) != 3 (dim 0)
+Got:
+    Traceback (most recent call last):
+      File "/usr/lib/python3.11/doctest.py", line 1351, in __run
+        exec(compile(example.source, filename, "single",
+      File "<doctest 101-lazy_matrix_mul.txt[14]>", line 1, in <module>
+        print(lazy_matrix_mul(m_a, m_b))
+              ^^^^^^^^^^^^^^^
+    NameError: name 'lazy_matrix_mul' is not defined
+**********************************************************************
+File "./tests/101-lazy_matrix_mul.txt", line 96, in 101-lazy_matrix_mul.txt
+Failed example:
+    print(lazy_matrix_mul([[]], [[5, 6], [7, 8]]))
+Expected:
+    Traceback (most recent call last):
+    ValueError: shapes (1,0) and (2,2) not aligned: 0 (dim 1) != 2 (dim 0)
+Got:
+    Traceback (most recent call last):
+      File "/usr/lib/python3.11/doctest.py", line 1351, in __run
+        exec(compile(example.source, filename, "single",
+      File "<doctest 101-lazy_matrix_mul.txt[15]>", line 1, in <module>
+        print(lazy_matrix_mul([[]], [[5, 6], [7, 8]]))
+              ^^^^^^^^^^^^^^^
+    NameError: name 'lazy_matrix_mul' is not defined
+**********************************************************************
+File "./tests/101-lazy_matrix_mul.txt", line 102, in 101-lazy_matrix_mul.txt
+Failed example:
+    print(lazy_matrix_mul([[5, 6], [7, 8]], [[]]))
+Expected:
+    Traceback (most recent call last):
+    ValueError: shapes (2,2) and (1,0) not aligned: 2 (dim 1) != 1 (dim 0)
+Got:
+    Traceback (most recent call last):
+      File "/usr/lib/python3.11/doctest.py", line 1351, in __run
+        exec(compile(example.source, filename, "single",
+      File "<doctest 101-lazy_matrix_mul.txt[16]>", line 1, in <module>
+        print(lazy_matrix_mul([[5, 6], [7, 8]], [[]]))
+              ^^^^^^^^^^^^^^^
+    NameError: name 'lazy_matrix_mul' is not defined
+**********************************************************************
+File "./tests/101-lazy_matrix_mul.txt", line 114, in 101-lazy_matrix_mul.txt
+Failed example:
+    print(lazy_matrix_mul("not a list", [[1, 2]]))
+Expected:
+    Traceback (most recent call last):
+    ValueError: Scalar operands are not allowed, use '*' instead
+Got:
+    Traceback (most recent call last):
+      File "/usr/lib/python3.11/doctest.py", line 1351, in __run
+        exec(compile(example.source, filename, "single",
+      File "<doctest 101-lazy_matrix_mul.txt[17]>", line 1, in <module>
+        print(lazy_matrix_mul("not a list", [[1, 2]]))
+              ^^^^^^^^^^^^^^^
+    NameError: name 'lazy_matrix_mul' is not defined
+**********************************************************************
+File "./tests/101-lazy_matrix_mul.txt", line 120, in 101-lazy_matrix_mul.txt
+Failed example:
+    print(lazy_matrix_mul([[1, 2]], "also not a list"))
+Expected:
+    Traceback (most recent call last):
+    ValueError: Scalar operands are not allowed, use '*' instead
+Got:
+    Traceback (most recent call last):
+      File "/usr/lib/python3.11/doctest.py", line 1351, in __run
+        exec(compile(example.source, filename, "single",
+      File "<doctest 101-lazy_matrix_mul.txt[18]>", line 1, in <module>
+        print(lazy_matrix_mul([[1, 2]], "also not a list"))
+              ^^^^^^^^^^^^^^^
+    NameError: name 'lazy_matrix_mul' is not defined
+**********************************************************************
+File "./tests/101-lazy_matrix_mul.txt", line 126, in 101-lazy_matrix_mul.txt
+Failed example:
+    print(lazy_matrix_mul("not a list", "also not a list"))
+Expected:
+    Traceback (most recent call last):
+    ValueError: Scalar operands are not allowed, use '*' instead
+Got:
+    Traceback (most recent call last):
+      File "/usr/lib/python3.11/doctest.py", line 1351, in __run
+        exec(compile(example.source, filename, "single",
+      File "<doctest 101-lazy_matrix_mul.txt[19]>", line 1, in <module>
+        print(lazy_matrix_mul("not a list", "also not a list"))
+              ^^^^^^^^^^^^^^^
+    NameError: name 'lazy_matrix_mul' is not defined
+**********************************************************************
+File "./tests/101-lazy_matrix_mul.txt", line 134, in 101-lazy_matrix_mul.txt
+Failed example:
+    print(lazy_matrix_mul(None, None))
+Expected:
+    Traceback (most recent call last):
+    TypeError: Object arrays are not currently supported
+Got:
+    Traceback (most recent call last):
+      File "/usr/lib/python3.11/doctest.py", line 1351, in __run
+        exec(compile(example.source, filename, "single",
+      File "<doctest 101-lazy_matrix_mul.txt[20]>", line 1, in <module>
+        print(lazy_matrix_mul(None, None))
+              ^^^^^^^^^^^^^^^
+    NameError: name 'lazy_matrix_mul' is not defined
+**********************************************************************
+File "./tests/101-lazy_matrix_mul.txt", line 143, in 101-lazy_matrix_mul.txt
+Failed example:
+    print(lazy_matrix_mul([1, 2], [[3, 4]]))
+Expected:
+    Traceback (most recent call last):
+    ValueError: shapes (2,) and (1,2) not aligned: 2 (dim 0) != 1 (dim 0)
+Got:
+    Traceback (most recent call last):
+      File "/usr/lib/python3.11/doctest.py", line 1351, in __run
+        exec(compile(example.source, filename, "single",
+      File "<doctest 101-lazy_matrix_mul.txt[21]>", line 1, in <module>
+        print(lazy_matrix_mul([1, 2], [[3, 4]]))
+              ^^^^^^^^^^^^^^^
+    NameError: name 'lazy_matrix_mul' is not defined
+**********************************************************************
+File "./tests/101-lazy_matrix_mul.txt", line 149, in 101-lazy_matrix_mul.txt
+Failed example:
+    print(lazy_matrix_mul([[1, 2]], [3, 4]))
+Exception raised:
+    Traceback (most recent call last):
+      File "/usr/lib/python3.11/doctest.py", line 1351, in __run
+        exec(compile(example.source, filename, "single",
+      File "<doctest 101-lazy_matrix_mul.txt[22]>", line 1, in <module>
+        print(lazy_matrix_mul([[1, 2]], [3, 4]))
+              ^^^^^^^^^^^^^^^
+    NameError: name 'lazy_matrix_mul' is not defined
+**********************************************************************
+File "./tests/101-lazy_matrix_mul.txt", line 154, in 101-lazy_matrix_mul.txt
+Failed example:
+    print(lazy_matrix_mul([1, 2], [3, 4]))
+Exception raised:
+    Traceback (most recent call last):
+      File "/usr/lib/python3.11/doctest.py", line 1351, in __run
+        exec(compile(example.source, filename, "single",
+      File "<doctest 101-lazy_matrix_mul.txt[23]>", line 1, in <module>
+        print(lazy_matrix_mul([1, 2], [3, 4]))
+              ^^^^^^^^^^^^^^^
+    NameError: name 'lazy_matrix_mul' is not defined
+**********************************************************************
+File "./tests/101-lazy_matrix_mul.txt", line 162, in 101-lazy_matrix_mul.txt
+Failed example:
+    print(lazy_matrix_mul([[1, "non-number"]], [[3, 4]]))
+Expected:
+    Traceback (most recent call last):
+    ValueError: shapes (1,2) and (1,2) not aligned: 2 (dim 1) != 1 (dim 0)
+Got:
+    Traceback (most recent call last):
+      File "/usr/lib/python3.11/doctest.py", line 1351, in __run
+        exec(compile(example.source, filename, "single",
+      File "<doctest 101-lazy_matrix_mul.txt[24]>", line 1, in <module>
+        print(lazy_matrix_mul([[1, "non-number"]], [[3, 4]]))
+              ^^^^^^^^^^^^^^^
+    NameError: name 'lazy_matrix_mul' is not defined
+**********************************************************************
+File "./tests/101-lazy_matrix_mul.txt", line 168, in 101-lazy_matrix_mul.txt
+Failed example:
+    print(lazy_matrix_mul([[5, 6], [7, 8]], [[5, "6"], [7, 8]]))
+Expected:
+    Traceback (most recent call last):
+    TypeError: invalid data type for einsum
+Got:
+    Traceback (most recent call last):
+      File "/usr/lib/python3.11/doctest.py", line 1351, in __run
+        exec(compile(example.source, filename, "single",
+      File "<doctest 101-lazy_matrix_mul.txt[25]>", line 1, in <module>
+        print(lazy_matrix_mul([[5, 6], [7, 8]], [[5, "6"], [7, 8]]))
+              ^^^^^^^^^^^^^^^
+    NameError: name 'lazy_matrix_mul' is not defined
+**********************************************************************
+File "./tests/101-lazy_matrix_mul.txt", line 174, in 101-lazy_matrix_mul.txt
+Failed example:
+    print(lazy_matrix_mul([[1, "non-number"]], [[{"a": 1}, 8.8]]))
+Expected:
+    Traceback (most recent call last):
+    TypeError: Object arrays are not currently supported
+Got:
+    Traceback (most recent call last):
+      File "/usr/lib/python3.11/doctest.py", line 1351, in __run
+        exec(compile(example.source, filename, "single",
+      File "<doctest 101-lazy_matrix_mul.txt[26]>", line 1, in <module>
+        print(lazy_matrix_mul([[1, "non-number"]], [[{"a": 1}, 8.8]]))
+              ^^^^^^^^^^^^^^^
+    NameError: name 'lazy_matrix_mul' is not defined
+**********************************************************************
+File "./tests/101-lazy_matrix_mul.txt", line 191, in 101-lazy_matrix_mul.txt
+Failed example:
+    print(lazy_matrix_mul(m_a, m_b))
+Expected:
+    Traceback (most recent call last):
+    ValueError: setting an array element with a sequence.
+Got:
+    Traceback (most recent call last):
+      File "/usr/lib/python3.11/doctest.py", line 1351, in __run
+        exec(compile(example.source, filename, "single",
+      File "<doctest 101-lazy_matrix_mul.txt[29]>", line 1, in <module>
+        print(lazy_matrix_mul(m_a, m_b))
+              ^^^^^^^^^^^^^^^
+    NameError: name 'lazy_matrix_mul' is not defined
+**********************************************************************
+File "./tests/101-lazy_matrix_mul.txt", line 205, in 101-lazy_matrix_mul.txt
+Failed example:
+    print(lazy_matrix_mul(m_a, m_b))
+Expected:
+    Traceback (most recent call last):
+    ValueError: setting an array element with a sequence.
+Got:
+    Traceback (most recent call last):
+      File "/usr/lib/python3.11/doctest.py", line 1351, in __run
+        exec(compile(example.source, filename, "single",
+      File "<doctest 101-lazy_matrix_mul.txt[32]>", line 1, in <module>
+        print(lazy_matrix_mul(m_a, m_b))
+              ^^^^^^^^^^^^^^^
+    NameError: name 'lazy_matrix_mul' is not defined
+**********************************************************************
+File "./tests/101-lazy_matrix_mul.txt", line 216, in 101-lazy_matrix_mul.txt
+Failed example:
+    print(lazy_matrix_mul(m_a, m_b))
+Expected:
+    Traceback (most recent call last):
+    ValueError: setting an array element with a sequence.
+Got:
+    Traceback (most recent call last):
+      File "/usr/lib/python3.11/doctest.py", line 1351, in __run
+        exec(compile(example.source, filename, "single",
+      File "<doctest 101-lazy_matrix_mul.txt[35]>", line 1, in <module>
+        print(lazy_matrix_mul(m_a, m_b))
+              ^^^^^^^^^^^^^^^
+    NameError: name 'lazy_matrix_mul' is not defined
+**********************************************************************
+1 items had failures:
+  22 of  36 in 101-lazy_matrix_mul.txt
+***Test Failed*** 22 failures.
